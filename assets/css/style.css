@@ -1,7 +1,7 @@
 /*Estilos da página index.html*/
 .center {
     text-align: center;
-    color:firebrick;
+    color:rgb(131, 15, 125);
 
 }
 .justify {
@@ -13,7 +13,7 @@
     flex-flow: row;
     justify-content: center;
     align-items: center;
-    color: firebrick;
+    color:rgb(131, 15, 125);
     text-decoration: none;
 }
 #menu li {
@@ -23,7 +23,7 @@
 
 #menu li a {
     text-decoration: none;
-    color: firebrick;
+    color:rgb(131, 15, 125);
     font-size: 20px;
 }
 

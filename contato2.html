@@ -25,16 +25,19 @@
       <h2>Envie seu vídeo ou comentário</h2>
       <form>
         <label for="nome">Nome:</label>
-        <input type="text" id="nome">
-        <br><br>
+        <input type="text" id="nome" onkeyup="validaNome()">
+        <div id="txtNome"></div>
+        <br>
         <label for="email">E-mail:</label>
-        <input type="email" id="email">
-        <br><br>
+        <input type="email" id="email" onkeyup="validaEmail()">
+        <div id="txtEmail"></div>
+        <br>
         <label for="conteudo">Conteúdo:</label> <br>
-        <textarea name="conteudo" id="assunto" cols="50" rows="20">
+        <textarea name="conteudo" id="conteudo" cols="50" rows="10" onkeyup="validaConteudo()">
            </textarea>
+           <div id="txtConteudo"></div>
         <br><br>
-        <button>Enviar</button>
+        <button onclick="enviar()">Enviar</button>
       </form>
     </div>
     <div class="ml-50">
@@ -65,6 +68,8 @@
     Todos os direitos reservados para Miss Bloquinho &copy;
   </p>
 </footer>
+
+<script src="assets/js/script.js"></script>
 </body>
 
 </html>
